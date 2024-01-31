@@ -10,6 +10,7 @@ app.conf.update(
     enable_utc=True,
     task_acks_late=True,
     task_acks_on_failure_or_timeout=False,
+    broker_heartbeat=None,
 )
 
 
