@@ -7,7 +7,7 @@ A repo with celery configured for running experiments and debugging
 1. Install [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/)
 2. Setup a virtual environment with python 3.10+ and install the requirements
 3. Start the rabbitmq server: `./start-rmq.sh`
-4. Start the celery worker: `./start-celery.sh`
+4. Start the celery worker: `./start.sh`
 5. Open a python shell and start some tasks up:
 
 ```python
