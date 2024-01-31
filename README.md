@@ -18,7 +18,7 @@ sleepy.apply_async((10,), countdown=20)
 ```
 
 If you want to play with the behaviour of SIGTERM, find the PID of the celery
-parent task, and `kill -TERM <pid>`.
+parent task, and `kill -TERM <pid>`, or CTRL+C from the celery worker terminal.
 
 ddtrace-run is used here as I was experimenting with how it may or may not affect
 the behaviour of the kill signal, but ddtrace-run doesn't act as a parent process
